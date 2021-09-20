@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mdsto\\Desktop\\ProjetoLocacaoApi\\ProjLocacaoAPI\\ProjLocacaoAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mdsto\\Desktop\\ProjetoLocacaoApi\\ProjLocacaoAPI\\ProjLocacaoAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mdsto\\Desktop\\ProjetoLocacaoApi\\ProjLocacaoAPI\\ProjLocacaoAPI.csproj",
+        "projectName": "ProjLocacaoAPI",
+        "projectPath": "C:\\Users\\mdsto\\Desktop\\ProjetoLocacaoApi\\ProjLocacaoAPI\\ProjLocacaoAPI.csproj",
+        "packagesPath": "C:\\Users\\mdsto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mdsto\\Desktop\\ProjetoLocacaoApi\\ProjLocacaoAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mdsto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net50"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net50": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net50": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
